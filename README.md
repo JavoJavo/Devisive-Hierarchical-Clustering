@@ -4,9 +4,13 @@ Por ahora sólo aglomera con dataframes de 2 variables, pero sería relativament
 ## Ejemplo de uso que divide en 2 clusters y grafica:
 
 ```py
-my_data = pd.read_csv('/content/class-grades.csv')
-my_data = my_data[['Midterm','Final']]
-X = my_data
-graficar_labels(X,cluster_divisivo(X,2))
+import seaborn as sns
+
+iris = sns.load_dataset('iris')
+iris = iris[['sepal_length','sepal_width']]
+graficar_labels(iris,cluster_divisivo(iris,3))
 ```
+      
+![image](https://user-images.githubusercontent.com/28678081/105900684-010fea80-5fe2-11eb-9ea0-d6f40afa998d.png)
+
 
