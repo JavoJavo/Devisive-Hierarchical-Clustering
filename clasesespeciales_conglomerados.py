@@ -180,11 +180,11 @@ def cluster_divisivo(X,k):
 
 # Ejemplo de uso que divide en 2 clusters y grafica:
 
-my_data = pd.read_csv('/content/class-grades.csv')
+#my_data = pd.read_csv('/content/class-grades.csv')
 #X = my_data.drop(columns=['Company','Unnamed: 0'])
-my_data = my_data[['Midterm','Final']]
-X = my_data
+#my_data = my_data[['Midterm','Final']]
+#X = my_data
 
 
-graficar_labels(X,cluster_divisivo(X,2))
+#graficar_labels(X,cluster_divisivo(X,2))
 
