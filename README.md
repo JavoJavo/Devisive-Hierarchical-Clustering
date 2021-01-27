@@ -2,7 +2,7 @@
 Usa distancia euclideana y la distancia entre clusters es la promedio.     
 Por ahora sólo aglomera con dataframes de 2 variables, pero sería relativamente fácil hacer que lo haga con n variables.
 
-## Ejemplo de uso que divide en 2 clusters y grafica:
+## Ejemplo de uso que divide en 3 clusters y grafica:
 
 ```py
 import seaborn as sns
