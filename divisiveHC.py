@@ -1,10 +1,6 @@
-from sklearn.cluster import AgglomerativeClustering
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.metrics import silhouette_score 
-import scipy.cluster.hierarchy as sch 
-from sklearn.cluster import KMeans
 from scipy.spatial.distance import euclidean as dis
 
 
