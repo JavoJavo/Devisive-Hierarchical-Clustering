@@ -11,7 +11,6 @@ iris = sns.load_dataset('iris')
 iris = iris[['sepal_length','sepal_width']]
 graficar_labels(iris,cluster_divisivo(iris,3))
 ```
-      
-![image](https://user-images.githubusercontent.com/28678081/105900684-010fea80-5fe2-11eb-9ea0-d6f40afa998d.png)
+![](https://github.com/JavoJavo/Devisive-Hierarchical-Clustering/blob/main/iris_k3.png)
 
 
