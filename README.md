@@ -4,7 +4,7 @@ Divide a numerical dataset in k clusters using the divisive approach.
 1. We start with a cluster made up of all the points.
 2. From that cluster the farthest point with respect to the other points (dissident) is located. The dissident forms its
 own cluster. 
-3. Then we iterate through all the points checking their average distance to both (or the total clusters formed) clusters,
+3. Then we iterate through all the points checking their average distance to both clusters (or the total clusters formed) ,
 they are assigned to the closest cluster. We keep iterating until there are no more changes\.*
 4. We repeat steps from 2 until k specified clusters are formed.
 ## Specs
